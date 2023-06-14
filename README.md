@@ -11,7 +11,7 @@
 3) Escreva um código Java capaz de ler o arquivo.csv, utilize a classe BufferedReader em conjunto com a classe FileReader para esse fim.
  O conteúdo do arquivo deve ser colocado em um ArrayList do tipo Produto O conteúdo do arquivo segue o padrão (codigo (int),quantidade(int), nome do produto(String), tamanho(String) e valor(double))
  
-  Segue exemplo de conteúdo.      
+Segue exemplo de conteúdo.      
   123, 1, camiseta, G, 30.90 <br/>
   321, 2, camisa, 4, 50.25 <br/>
   456, 1, calça, 42, 120.00 <br/>
@@ -31,9 +31,9 @@
  
 5) Implemente em Java um sistema de gerenciamento de funcionários de uma empresa. O sistema deve permitir cadastrar diferentes tipos de funcionários, como efetivos, temporários e terceirizados. Para isso, você deve implementar a seguinte hierarquia de classes: A classe Funcionario é a classe base abstrata que possui os seguintes atributos protegidos: nome (String) e salario (double). Ela também possui os seguintes métodos:
 
-getNome(): retorna o nome do funcionário.
-getSalario(): retorna o salário do funcionário.
-calcularSalario(): um método abstrato que deve ser implementado nas subclasses para calcular o salário de cada tipo de funcionário.
+- getNome(): retorna o nome do funcionário.
+- getSalario(): retorna o salário do funcionário.
+- calcularSalario(): um método abstrato que deve ser implementado nas subclasses para calcular o salário de cada tipo de funcionário.
 
  Durante o cadastro de um funcionário o sistema deve solicitar ao usuário que informe o tipo de funcionário (efetivo, temporário ou terceirizado) e os dados específicos de cada tipo de funcionário. (Tal cadastro pode ser feito em uma lista de funcionários por exemplo)
 
